@@ -3,7 +3,7 @@
 Test case for crashing google cloud using Snakemake
 
 1. Create a bucket
-2. run ```snakemake  --google-lifesciences --default-remote-prefix MY_BUCKET_NAME_HERE --preemption-default 10 --use-conda -r --jobs 100 -np```
+2. run ```snakemake  --google-lifesciences --default-remote-prefix MY_BUCKET_NAME_HERE --preemption-default 10 --use-conda -r --jobs 100```
 
 
 What I see, when I run this from an Ubuntu VM on GCP, is lots of jobs submitting fine, and then:
